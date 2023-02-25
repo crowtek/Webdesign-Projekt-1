@@ -12,6 +12,7 @@
 
 body{
   background-color: var(--background);
+  font-family: 'Times New Roman', serif;
 }
 
 section{
@@ -24,4 +25,5 @@ h1,
 h2,
 span{
   color: var(--white);
+  letter-spacing: 1px;
 }

@@ -1,0 +1,36 @@
+.section-1{
+    background-image: url("/public/section-1-background.jpg");
+    background-size: cover;
+}
+.title-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    background-color: var(--background);
+    height: 100%;
+    width: 40%;
+    margin-left: 5%;
+}
+.title-container h1,
+.title-container h2{
+    font-weight: 100;
+    text-align: center;
+}
+.title-container h1{
+    font-size: 7rem;
+    letter-spacing: 1.2rem;
+}
+.title-container h2{
+    font-size: 1.9rem;
+    width: 60%;
+    margin-top: 5%;
+}
+
+.trennstrich{
+    height: 1px;
+    width: 50%;
+    background-color: var(--white);
+}
+
