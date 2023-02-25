@@ -1,6 +1,7 @@
 import React from 'react';
 import { Section1 } from './sections/section-1';
 import { Section2 } from './sections/section-2';
+import { Section3 } from './sections/section-3';
 import './App.css';
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <div className="App">
       <Section1 />
       <Section2 />
+      <Section3 />
     </div>
   );
 }
