@@ -4,6 +4,7 @@ import { Section2 } from './sections/section-2';
 import { Section3 } from './sections/section-3';
 import { Section4 } from './sections/section-4';
 import { Section5 } from './sections/section-5';
+
 import './App.css';
 
 function App() {

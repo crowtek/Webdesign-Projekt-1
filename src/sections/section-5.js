@@ -3,7 +3,7 @@ import "./section-5.css";
 
 export function Section5() {
     return (
-        <section className="section-5">
+        <section className="section-5" id="section5">
             <div className="section-5-text-container">
                 <h1>BUSINESS PLAN</h1>
                 <p>
