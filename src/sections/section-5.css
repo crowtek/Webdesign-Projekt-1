@@ -1,0 +1,36 @@
+.section-5-text-container{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 100%;
+    padding: 5%;
+    gap: 10%;
+}
+.section-5-text-container h1{
+    font-size: 4rem;
+    width: 100px;
+    letter-spacing: 0.5rem;
+}
+
+.section-5-text-container p{
+    font-size: 1.8rem;
+    text-align: left;
+    width: 80%;
+}
+
+
+.section-5-img{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    width: 70%;
+    height: 100%;
+    padding: 5%;
+}
+.diagramImg{
+    width: 90%;
+    height: 90%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("/public/diagram.png");
+}
