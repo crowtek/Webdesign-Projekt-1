@@ -1,0 +1,25 @@
+.section-2{
+    justify-content: center;
+    align-items: center;
+}
+
+.text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    width: 40%;
+}
+.text-container h1{
+    font-size: 3rem;
+    width: 100;
+}
+.text-container ul{
+    font-size: 1.5rem;
+    color: var(--white);
+}
+.text-container li{
+    margin-top: 30px;
+    letter-spacing: 0.7px;
+}
