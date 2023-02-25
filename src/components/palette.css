@@ -1,0 +1,27 @@
+.palette{
+    width: 17%;
+    height: 55%;
+    background-color: var(--white);
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.palette-color{
+    width: 100%;
+    height: 70%;
+    border-radius: 4px;
+}
+
+.palette-name{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 30%;
+    color: black;
+}
+.palette-name p{
+    color: rgb(114, 113, 113);
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}

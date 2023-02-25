@@ -3,14 +3,12 @@ import { Trennstrich } from "../components/trennstrich";
 
 export function Section1() {
     return (
-        <div style={{ height: '100vh'}}>
-            <section className="section-1">
-                <div className="title-container">
-                    <h1>Natural</h1>
-                    <Trennstrich width={40}/>
-                    <h2>Nature isinspiring, therapeutic and rejuvenating </h2>
-                </div>
-            </section>
-        </div>
+        <section className="section-1">
+            <div className="title-container">
+                <h1>Natural</h1>
+                <Trennstrich width={40}/>
+                <h2>Nature isinspiring, therapeutic and rejuvenating </h2>
+            </div>
+        </section>
     );
 }

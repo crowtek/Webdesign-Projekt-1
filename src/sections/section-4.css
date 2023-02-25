@@ -1,0 +1,31 @@
+.section-4{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-4-title{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 30%;
+    width: 100%;
+    padding: 0 7%;
+}
+.section-4-title h1{
+    font-size: 3.5rem;
+    letter-spacing: 0.6rem;
+}
+.section-4-title p{
+    font-size: 1.5rem;
+}
+
+.section-4-paletten-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 70%;
+    gap: 3%;
+}
