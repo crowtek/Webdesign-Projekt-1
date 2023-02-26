@@ -1,0 +1,35 @@
+.section-7-imageContainer{
+    width: 45%;
+    background-color: var(--white);
+}
+
+.section-7-textContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 55%;
+    height: 100%;
+    padding: 0 10%;
+    gap: 40px;
+}
+
+.section-7-textContainer h1{
+    font-size: 4rem;
+    width: 80%;
+}
+.section-7-textContainer ul{
+    font-size: 1.5rem;
+    color: var(--white);
+    width: 80%;
+}
+.section-7-textContainer li{
+    margin-top: 30px;
+    letter-spacing: 0.7px;
+}
+
+.section-7-imageContainer{
+    background-image: url("/public/mountain.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
