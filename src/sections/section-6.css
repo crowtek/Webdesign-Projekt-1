@@ -1,0 +1,57 @@
+.section-6-ImageContainer{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 20px 4%;
+    width: 55%;
+    height: 100%;
+    background-color: var(--white);
+}
+
+.section-6-ImageContainer h1{
+    position: relative;
+    z-index: 2;
+    font-size: 4rem;
+    color: var(--background);
+    background-color: var(--white);
+}
+
+.section-6-ImageContainer img{
+    position: relative;
+    z-index: 2;
+    height: 83%;
+    width: 83%;
+    margin-left: 65px;
+}
+
+.section-6-strich{
+    position: absolute;
+    left: 22%;
+    top: 0;
+    height: 100%;
+    width: 2px;
+    background-color: var(--background);
+}
+
+
+.section-6-textContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    gap: 40px;
+}
+
+.section-6-textContainer h2{
+    font-size: 3rem;
+    width: 70%;
+}
+.section-6-textContainer p{
+    width: 70%;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+}
